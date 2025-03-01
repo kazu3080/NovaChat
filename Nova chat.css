@@ -1,0 +1,28 @@
+.chat-message.user {
+    align-self: flex-end;
+    background-color: #dcf8c6;
+}
+.friends-list, .rooms-list {
+    margin-top: 20px;
+}
+.friend, .room {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.friend button, .room button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.friend img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
